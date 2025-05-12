@@ -1,16 +1,8 @@
-# WT-B-CALC
-War Thunder bomb payload calculator.
+# War thunder payload calculator
+
+Goals:
+- User will be able to filter by plane and then by bomb if they want to
+- User will be able to select the number of bases they want to destroy
+- If the amount of bombs needed cannot be carried by that place a message will be displayed warning that the plane is incapable of destroying that amount of bases
 
 
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
