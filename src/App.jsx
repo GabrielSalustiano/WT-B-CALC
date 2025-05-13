@@ -16,16 +16,19 @@ function App() {
     <div ClassName = "App">
       <h1> Payload Calculator </h1>
 
-      <BombSelector
-        bombs={bombs}
-        selectedBomb={selectedBomb}
-        onChange={setSelectedBomb}
-      />
 
       <PlaneSelector
       planes={planes}
       selectedPlane={selectedPlane}
       onChange={setSelectedPlane}
+      />
+
+
+      <BombSelector
+      bombs={bombs}
+      selectedBomb={selectedBomb}
+      selectedPlane={selectedPlane}
+      onChange={setSelectedBomb}
       />
 
       <Results
